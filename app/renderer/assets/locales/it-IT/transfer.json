@@ -1,0 +1,22 @@
+{
+  "transfer_send_button_cta": "Send Currency",
+  "transfer_receive_button_cta": "Receive Currency",
+  "transfer_modal_title": "Transfer Currency",
+  "transfer_modal_transaction_successful_title": "Trasferimento avvenuto con successo!",
+  "transfer_modal_transaction_successful_message": "La transazione richiesta è stata elaborata. L'ID della transazione può essere trovato sotto.",
+  "transfer_confirming_title": "Verifica la tua transazione",
+  "transfer_confirming_body": "Si prega di assicurarsi che la destinazione, la quantità e il memo per questo trasferimento siano validi.",
+  "transfer_warning_irreversible_title": "Le transazioni sono irreversibili",
+  "transfer_warning_irreversible_body": "Una volta inviata questa transazione, non può essere annullata.",
+  "transfer_label_from": "Account di origine",
+  "transfer_label_to": "Account destinatario",
+  "transfer_label_quantity": "Quantità",
+  "transfer_label_token_and_quantity": "Token scelto + Quantità",
+  "transfer_label_memo": "Memo del trasferimento",
+  "transfer_receive_modal_header": "Receive Currency",
+  "transfer_receive_body_text": "To receive private currency simply give the following bank account name to the sender.",
+  "transfer_close": "Close",
+  "transfer_header_available": "available to transfer.",
+  "transfer_send_exchange_in_memo_one": "Are you trying to transfer to an exchange? If so put",
+  "transfer_send_exchange_in_memo_two": "as the bank account name and put the memo code given in the memo field."
+}

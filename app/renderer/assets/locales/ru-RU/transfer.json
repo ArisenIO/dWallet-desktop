@@ -1,0 +1,22 @@
+{
+  "transfer_send_button_cta": "Send Currency",
+  "transfer_receive_button_cta": "Receive Currency",
+  "transfer_modal_title": "Передача Токенов",
+  "transfer_modal_transaction_successful_title": "Передача прошла успешно!",
+  "transfer_modal_transaction_successful_message": "Запрошенная транзакция обработана. Идентификатор транзакции можно найти ниже.",
+  "transfer_confirming_title": "Просмотрите свою транзакцию",
+  "transfer_confirming_body": "Убедитесь, что пункт назначения, количество и памятка для этого перевода действительны.",
+  "transfer_warning_irreversible_title": "Транзакции являются необратимыми",
+  "transfer_warning_irreversible_body": "Как только эта транзакция будет отправлена, она не может быть отменена.",
+  "transfer_label_from": "Источник",
+  "transfer_label_to": "Получатель",
+  "transfer_label_quantity": "Количество",
+  "transfer_label_token_and_quantity": "Выбор Токена + Количество",
+  "transfer_label_memo": "Памятка",
+  "transfer_receive_modal_header": "Receive Currency",
+  "transfer_receive_body_text": "To receive private currency simply give the following bank account name to the sender.",
+  "transfer_close": "Close",
+  "transfer_header_available": "available to transfer.",
+  "transfer_send_exchange_in_memo_one": "Are you trying to transfer to an exchange? If so put",
+  "transfer_send_exchange_in_memo_two": "as the bank account name and put the memo code given in the memo field."
+}
