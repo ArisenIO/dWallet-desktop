@@ -35,7 +35,7 @@ export function transfer(from, to, quantity, memo, symbol = 'RIX', private_key) 
         private_key:private_key
       })
       .then(function (response) {
-        var tx = response.data.result;
+        var tx = response.data.result.result;
 
         dispatch(getCurrencyBalance(from));
         return dispatch({
