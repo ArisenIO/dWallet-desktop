@@ -27,30 +27,30 @@ export function transfer(from, to, quantity, memo, symbol = 'RIX', private_key) 
       type: types.SYSTEM_TRANSFER_PENDING
     });
     try {
-       axios.post(`http://51.15.78.253:3001/avote/transfer`,{
-        from:from,
-        to:to,
-        quantity:quantity,
-        memo:memo,
-        private_key:private_key
+      axios.post('https://dmobileapi.arisen.network/avote/transfer/v1', {
+        from: from,
+        to: to,
+        quantity: quantity.replace(' RIX', ''),
+        memo: memo,
+        private_key: private_key
       })
-      .then(function (response) {
-        var tx = response.data.result.result;
-
-        dispatch(getCurrencyBalance(from));
-        return dispatch({
-          payload: { tx },
-          type: types.SYSTEM_TRANSFER_SUCCESS
-        });
-      })
-      .catch(function (error) {
-        var err = error.response.data.error.json.error;
-        dispatch({
-          payload: { err },
-          type: types.SYSTEM_TRANSFER_FAILURE
+        .then(function (response) {
+          var tx = response.data.transfer;
+          dispatch(getCurrencyBalance(from));
+          return dispatch({
+            payload: { tx },
+            type: types.SYSTEM_TRANSFER_SUCCESS
+          });
         })
-      });
- 
+        .catch(function (error) {
+          var error = JSON.parse(error.response.data.error);
+          var err = error.error;
+          dispatch({
+            payload: { err },
+            type: types.SYSTEM_TRANSFER_FAILURE
+          })
+        });
+
     } catch (err) {
       return dispatch({
         payload: { err },
