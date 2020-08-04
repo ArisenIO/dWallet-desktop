@@ -35,7 +35,7 @@ export function claimUnstaked(owner) {
     return rix(connection, true).refund({
       owner
     }).then((tx) => {
-      // Reload the bank account
+      // Reload the wallet
       dispatch(getAccount(owner));
       // Reload the balances
       dispatch(getCurrencyBalance(owner));
@@ -138,7 +138,7 @@ export function getAccount(account = '') {
         if (modified.voter_info && modified.voter_info.proxy) {
           dispatch(getAccount(modified.voter_info.proxy));
         }
-        // Dispatch the results of the bank account itself
+        // Dispatch the results of the wallet itself
         return dispatch({
           type: types.GET_ACCOUNT_SUCCESS,
           payload: { results: modified }

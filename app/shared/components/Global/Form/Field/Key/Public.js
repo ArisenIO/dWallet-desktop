@@ -30,7 +30,7 @@ class GlobalFormFieldKeyPublic extends Component<Props> {
           name,
           value: publicKey
         });
-        // Also pass the Bank Account's Private Key back if a method was passed
+        // Also pass the Wallet's Private Key back if a method was passed
         if (setPrivateKey) {
           setPrivateKey(name, publicKey, key);
         }

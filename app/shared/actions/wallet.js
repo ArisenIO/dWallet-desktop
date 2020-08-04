@@ -173,7 +173,7 @@ export function unlockWallet(password, useWallet = false) {
 
 export function setWalletMode(walletMode) {
   return (dispatch: () => void) => {
-    // Set the bank account mode
+    // Set the wallet mode
     dispatch(setSetting('walletMode', walletMode));
     switch (walletMode) {
       case 'cold': {

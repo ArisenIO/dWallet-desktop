@@ -149,7 +149,7 @@ class WelcomeAccountContainer extends Component<Props> {
         header={t('welcome:welcome_account_lookup_title')}
       />
     );
-    // display an error if the bank account could not be found
+    // display an error if the wallet could not be found
     if (validate.ACCOUNT === 'FAILURE') {
       message = (
         <Message

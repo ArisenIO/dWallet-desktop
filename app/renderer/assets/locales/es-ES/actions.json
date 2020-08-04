@@ -15,7 +15,7 @@
   "actions_table_row_delegatebw_text_one": "Apostó",
   "actions_table_row_delegatebw_text_three": "a ancho de banda",
   "actions_table_row_delegatebw_text_two": "a CPU",
-  "actions_table_row_newaccount_text_one": "Created a bank account with the bank account name",
+  "actions_table_row_newaccount_text_one": "Created a wallet with the wallet name",
   "actions_table_row_refund_text": "Su apuesta fue reembolsada.",
   "actions_table_row_regproxy_text_one": "Usted se registró como votante proxy.",
   "actions_table_row_regproxy_text_two": "Se des-registró como votante proxy.",
@@ -38,5 +38,5 @@
   "actions_table_row_buyrambytes_text_one": "Has comprado ",
   "actions_table_row_sellram_text_one": "Vendió ",
   "actions_table_row_of_ram": "de RAM",
-  "actions_table_row_on_account": "on bank account"
+  "actions_table_row_on_account": "on wallet"
 }

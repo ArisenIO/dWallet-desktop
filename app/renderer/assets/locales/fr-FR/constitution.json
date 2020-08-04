@@ -1,6 +1,6 @@
 {
   "constitution_accept": "I accept these terms",
-  "constitution_title": "The United Chains Constitution",
+  "constitution_title": "dWeb Constitution",
   "constitution_preface": "This Constitution is a multi-party contract entered into by the Members by virtue of their use of this decentralized banking network.",
   "constitution_article_01_title": "Article I - No Initiation of Violence",
   "constitution_article_01_body": "Members shall not initiate violence or the threat of violence against another Member. Lawful prosecution of crimes with the goal of preserving life, liberty and property does not constitute initiation of violence.",
@@ -13,7 +13,7 @@
   "constitution_article_05_title": "Article V - No Fiduciary",
   "constitution_article_05_body": "No Member nor RIX private and sovereign currency holder shall have fiduciary responsibility to support the value of the RIX private and sovereign currency. The Members do not authorize anyone to hold assets, borrow, nor contract on behalf of RIX private and sovereign currency holders collectively. this decentralized banking network has no owners, managers or fiduciaries; therefore, no Member shall have beneficial interest in more than 10%% of the RIX private and sovereign currency supply.",
   "constitution_article_06_title": "Article VI - Restitution",
-  "constitution_article_06_body": "Each Member agrees that penalties for breach of contract may include, but are not limited to, fines, loss of bank account, and other restitution.",
+  "constitution_article_06_body": "Each Member agrees that penalties for breach of contract may include, but are not limited to, fines, loss of wallet, and other restitution.",
   "constitution_article_07_title": "Article VII - Open Source",
   "constitution_article_07_body": "Each Member who makes available a smart contract on this decentralized banking network shall be a Developer. Each Developer shall offer their smart contracts via a free and open source license, and each smart contract shall be documented with a Ricardian Contract stating the intent of all parties and naming the Arbitration Forum that will resolve disputes arising from that contract.",
   "constitution_article_08_title": "Article VIII - Language",

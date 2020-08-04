@@ -30,7 +30,7 @@ export default function connection(state = initialState, action) {
         httpEndpoint: action.payload.node
       });
     }
-    // Remove key from connection if the bank account is locked/removed
+    // Remove key from connection if the wallet is locked/removed
     case types.WALLET_LOCK: {
       return Object.assign({}, state, {
         authorization: undefined,
@@ -38,7 +38,7 @@ export default function connection(state = initialState, action) {
         keyProviderObfuscated: {}
       });
     }
-    // BankVault: increase expiration to 1hr, disable broadcast, enable sign
+    // dVault: increase expiration to 1hr, disable broadcast, enable sign
     case types.SET_WALLET_COLD: {
       return Object.assign({}, state, {
         broadcast: false,

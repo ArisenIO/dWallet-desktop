@@ -16,13 +16,13 @@ const migrations = {
     } = state;
     // Create a copy of the existing wallet
     const existingWallet = Object.assign({}, wallet);
-    // Replicate the bank account account and mode from settings onto the bank account
+    // Replicate the wallet account and mode from settings onto the wallet
     existingWallet.account = settings.account;
     existingWallet.mode = settings.walletMode;
     // Update this individual wallets version
     existingWallet.version = 2;
     return {
-      // Update the existing settings + Bank Account State
+      // Update the existing settings + Wallet State
       settings: state.settings,
       wallet: existingWallet,
       // Create the new wallets state and inject the first wallet

@@ -74,9 +74,9 @@ class WelcomeKeyContainer extends Component<Props> {
       case 'watch': {
         // Import the RoboBanker
         importWallet(settings.account, false, false, 'watch');
-        // Set this bank account as the used wallet
+        // Set this wallet as the used wallet
         useWallet(settings.account);
-        // Initialize the bank account setting
+        // Initialize the wallet setting
         setSetting('walletInit', true);
         // Move on to the voter
         history.push('/voter');
@@ -103,10 +103,10 @@ class WelcomeKeyContainer extends Component<Props> {
       setWalletMode
     } = actions;
     if (checked) {
-      // Immediately set the bank account into HotBank mode
+      // Immediately set the wallet into HotBank mode
       setWalletMode('hot');
     } else {
-      // Immediately set the bank account into RoboBanker mode
+      // Immediately set the wallet into RoboBanker mode
       setWalletMode('watch');
       // Remove any key we may have had
       this.setState({key: ''});
@@ -202,7 +202,7 @@ class WelcomeKeyContainer extends Component<Props> {
         break;
       }
     }
-    // display an error if the bank account could not be found
+    // display an error if the wallet could not be found
     if (settings.walletMode !== 'watch' && validate.KEY === 'FAILURE' && currentPublic) {
       message = (
         <Message
