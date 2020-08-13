@@ -122,7 +122,7 @@ export function getAccount(account = '') {
     } = getState();
     if (account && (settings.node || settings.node.length !== 0)) {
       rix(connection).getAccount(account).then((results) => {
-        // Trigger the action to load this bank accounts balances'
+        // Trigger the action to load this wallets balances'
         if (settings.account === account) {
           dispatch(getCurrencyBalance(account));
         }

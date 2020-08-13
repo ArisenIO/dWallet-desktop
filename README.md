@@ -7,7 +7,7 @@
 
 # dWallet - RIX Block Governance Voting & Wallet
 
-`dWallet` is a limited-functionality release of a light wallet being designed for the Arisen decentralized banking network. This application can be used to connect to a remote RIX API endpoint to perform Governance Voting actions and a few basic wallet commands.
+`dWallet` is a limited-functionality release of a light wallet being designed for the Arisen network. This application can be used to connect to a remote RIX API endpoint to perform Governance Voting actions and a few basic wallet commands.
 
 [![dWallet screenshot](https://raw.githubusercontent.com/arisenio/dWallet/master/dWallet.png)](https://raw.githubusercontent.com/arisenio/dWallet/master/dWallet.png)
 

@@ -1,5 +1,5 @@
 {
-  "contract_terms": "By completing this bank transaction, I agree to the following terms (click to expand)...",
+  "contract_terms": "By completing this transaction, I agree to the following terms (click to expand)...",
   "system_transfer_title": "Transfer Terms & Conditions",
   "system_transfer_1": "I, {{from}}, certify the following to be true to the best of my knowledge:",
   "system_transfer_2": "1. I certify that {{quantity}} is not the proceeds of fraudulent or violent activities.",

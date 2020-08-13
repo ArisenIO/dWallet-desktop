@@ -112,11 +112,11 @@ export function signTransaction(tx, contract = false) {
       connection
     } = getState();
     const signer = rix(connection, true);
-    // If a contract was specified along with the bank transaction, load it.
+    // If a contract was specified along with the transaction, load it.
     if (contract && contract.account && contract.abi) {
       signer.fc.abiCache.abi(contract.account, contract.abi);
     }
-    // Sign the bank transaction
+    // Sign the transaction
     signer
       .transaction(tx.transaction.transaction, {
         broadcast: connection.broadcast,

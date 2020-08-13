@@ -30,7 +30,7 @@ export default function system(state = {}, action) {
   };
 
   if (action.payload) {
-    // Attach the wallet name associated to request when given
+    // Attach The wallet name associated to request when given
     if (action.payload.account_name) {
       newState[accountField] = action.payload.account_name;
     }

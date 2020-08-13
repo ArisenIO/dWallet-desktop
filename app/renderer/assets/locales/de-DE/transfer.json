@@ -3,11 +3,11 @@
   "transfer_receive_button_cta": "Receive Currency",
   "transfer_modal_title": "Transfer Currency",
   "transfer_modal_transaction_successful_title": "Transfer successful!",
-  "transfer_modal_transaction_successful_message": "The requested transaction has been processed. the bank transaction ID can be found below.",
+  "transfer_modal_transaction_successful_message": "The requested transaction has been processed. the transaction ID can be found below.",
   "transfer_confirming_title": "Review your Transaction",
   "transfer_confirming_body": "Please ensure the destination, quantity and memo for this transfer are valid.",
   "transfer_warning_irreversible_title": "Transactions are irreversible",
-  "transfer_warning_irreversible_body": "Once this bank transaction is submitted it cannot be reversed.",
+  "transfer_warning_irreversible_body": "Once this transaction is submitted it cannot be reversed.",
   "transfer_label_from": "Origin Account",
   "transfer_label_to": "Destination Account",
   "transfer_label_quantity": "Quantity",
@@ -18,5 +18,5 @@
   "transfer_close": "Close",
   "transfer_header_available": "available to transfer.",
   "transfer_send_exchange_in_memo_one": "Are you trying to transfer to an exchange? If so put",
-  "transfer_send_exchange_in_memo_two": "as the wallet name and put the memo code given in the memo field."
+  "transfer_send_exchange_in_memo_two": "as The wallet name and put the memo code given in the memo field."
 }
