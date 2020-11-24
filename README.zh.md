@@ -7,7 +7,7 @@
 
 # dWallet - RIX 超级节点投票器 & 钱包
 
-`dWallet` 是一款为RIX区块链设计的轻量级钱包的有限功能版本。此程序用于连接到远程RIX API节点来执行超级节点投票操作和一些基本钱包命令。
+`dWallet` 是一款为RIX区块链设计的轻量级钱包的有限功能版本。此程序用于连接到远程ARISEN API节点来执行超级节点投票操作和一些基本钱包命令。
 
 [![dWallet screenshot](https://raw.githubusercontent.com/arisenio/dWallet/master/dWallet.png)](https://raw.githubusercontent.com/arisenio/dWallet/master/dWallet.png)
 
@@ -84,7 +84,7 @@ yarn dev
 
 ### 声明
 
-该应用由[BenchX](https://benchx.io)团队领导开发，用于帮助RIX持有人参与RIX的治理。
+该应用由[PeepsLabs](https://benchx.io)团队领导开发，用于帮助RIX持有人参与RIX的治理。
 
 ### Release Signatures
 

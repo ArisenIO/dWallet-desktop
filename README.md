@@ -5,15 +5,15 @@
 
 [English](https://github.com/arisenio/dWallet/blob/master/README.md) - [한글](https://github.com/arisenio/dWallet/blob/master/README.kr.md) - [中文](https://github.com/arisenio/dWallet/blob/master/README.zh.md) - [日本語](https://github.com/arisenio/dWallet/blob/master/README.ja.md) - [Русский](https://github.com/arisenio/dWallet/blob/master/README.ru.md)
 
-# dWallet - RIX Block Governance Voting & Wallet
+# dWallet - ARISEN Desktop Wallet
 
-`dWallet` is a limited-functionality release of a light wallet being designed for the Arisen network. This application can be used to connect to a remote RIX API endpoint to perform Governance Voting actions and a few basic wallet commands.
+`dWallet` is a limited-functionality release of a light wallet being designed for the Arisen network. This application can be used to connect to a remote ARISEN API endpoint to perform Governance Voting actions and a few basic wallet commands.
 
 [![dWallet screenshot](https://raw.githubusercontent.com/arisenio/dWallet/master/dWallet.png)](https://raw.githubusercontent.com/arisenio/dWallet/master/dWallet.png)
 
 ### Features
 
-- **Block Governance Voting**: Select which Governance Members to support and cast your vote. Please note that the block Governance Voting UI is not a research tool; it is a simple interface that provides a secure way to vote.
+- **Arisen/dWeb Governance Voting**: Select which Governance Members to support and cast your vote. Please note that the Arisen/dWeb Governance Voting UI is not a research tool; it is a simple interface that provides a secure way to vote.
 - **Token Transfers**: Transfer RIX or any other token you may have a balance for to another user or exchanges.
 - **CPU/Bandwidth Staking**: Stake your RIX as either Bandwidth or CPU. This grants rights to resource usage on the network, in addition to conveying weight while voting for Governance Members.
 - **local wallet**: Set a password while importing your Wallet's Private Key to create a local wallet. Your key will be encrypted locally using this password. This password will be required each time you need to unlock the wallet.
@@ -84,7 +84,7 @@ yarn dev
 
 ### Credits
 
-The development of this application is being led by members of the [BenchX](https://benchx.io) team in an effort to let stakeholders participate in RIX’ governance.
+The development of this application is being led by members of the [PeepsLabs](https://benchx.io) team in an effort to let stakeholders participate in RIX’ governance.
 
 ### Release Signatures
 

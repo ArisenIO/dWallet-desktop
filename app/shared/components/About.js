@@ -53,7 +53,7 @@ export default class About extends Component<Props> {
                 </Grid.Column>
                 <Grid.Column width={8}>
                   <Segment>
-                    <Image src={logo} alt="BenchX" />
+                    <Image src={logo} alt="PeepsLabs" />
                     <Segment basic padded>
                       <p>{t('about_benchx_message_1')}</p>
                       <p>

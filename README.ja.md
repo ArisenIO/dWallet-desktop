@@ -84,7 +84,7 @@ yarn dev
 
 ### クレジット
 
-このアプリケーションの開発は、ステークホルダーがRIXのガバナンスに参加できるようにするために、[BenchX](https://benchx.io)チームが主導しています。
+このアプリケーションの開発は、ステークホルダーがRIXのガバナンスに参加できるようにするために、[PeepsLabs](https://benchx.io)チームが主導しています。
 
 ### Release Signatures
 

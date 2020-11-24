@@ -7,7 +7,7 @@
 
 # dWallet - RIX 블록 생산자 투표 및 지갑
 
-`dWallet` 는 RIX 블록 체인을 위해 한정된 기능을 갖춘 라이트 지갑입니다. 이 프로그램을 사용하여 원격 RIX API 끝점에 연결할 수 있고, 블록생산자 투표 작업 및 몇 가지 기본 지갑 명령을 수행 할 수 있습니다.
+`dWallet` 는 RIX 블록 체인을 위해 한정된 기능을 갖춘 라이트 지갑입니다. 이 프로그램을 사용하여 원격 ARISEN API 끝점에 연결할 수 있고, 블록생산자 투표 작업 및 몇 가지 기본 지갑 명령을 수행 할 수 있습니다.
 
 [![dWallet screenshot](https://raw.githubusercontent.com/arisenio/dWallet/master/dWallet.png)](https://raw.githubusercontent.com/arisenio/dWallet/master/dWallet.png)
 
@@ -76,7 +76,7 @@ yarn dev
 
 ### 협찬
 
-이 프로그램의 개발은 [BenchX](https://benchx.io) 팀 구성원이 이끌어 내며 이해 관계자가 RIX의 지배 구조에 참여할 수 있도록 노력하고 있습니다.
+이 프로그램의 개발은 [PeepsLabs](https://benchx.io) 팀 구성원이 이끌어 내며 이해 관계자가 RIX의 지배 구조에 참여할 수 있도록 노력하고 있습니다.
 
 ### Release Signatures
 
